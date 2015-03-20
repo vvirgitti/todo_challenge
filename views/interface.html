@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="interface">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Todo list</title>
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+  <script src="../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../bower_components/angular/angular.js"></script>
+  <link rel="stylesheet" href="../public/css/interface.css">
+  <script type="text/javascript" src="../js/interface.js"></script>
+</head>
+
+<body ng-controller="InterfaceController as interface">
+
+  <header>
+    <div class="page-header">
+      <h1>MyTodo List <small> Don't forget anything anymore with our app!</small></h1>
+    </div>
+  </header>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="input-group">
+        <input ng-model="add.body" type="text" class="form-control" placeholder="What needs to be done?" aria-describedby="basic-addon2">
+        <span class="input-group-addon" id="basic-addon2">Add task</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>{{interface.task.detail}}</h2>
+
+
+</body>
+</html>
