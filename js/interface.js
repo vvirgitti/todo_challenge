@@ -1,5 +1,10 @@
-var interface = new Interface();
+var interface = angular.module('interface', []);
 
-$(document).ready(function(){
-  
-});
+  interface.controller('InterfaceController', function(){
+    this.addTask = list;
+  });
+
+  var list = {
+    id: '1',
+    detail: 'Walk the dog',
+  }

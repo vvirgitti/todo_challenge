@@ -1,11 +1,12 @@
 describe("interface", function(){
-  interface = new Interface;
+
+  var interface;
 
   describe('MVP: creating a todo list and adding tasks to it', function(){
 
-    it('can add tasks from the search to the data storage', function(){
-      interface.addNewTask("Walk the dog");
-      expect(interface.displayTask).toBe("Walk the dog");
+
+    it('initialises with an emty search', function(){
+      expect(this.addTask).toBeUndefined();
     });
 
   });
