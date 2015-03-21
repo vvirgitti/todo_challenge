@@ -14,7 +14,7 @@ branches:
 
 install:
   - npm install -g grunt-cli
-  - bower install
+  - npm install bower
   - ./node_modules/protractor/bin/webdriver-manager update
 
 
