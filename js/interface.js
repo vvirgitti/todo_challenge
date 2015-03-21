@@ -7,4 +7,4 @@ var interface = angular.module('interface', []);
   var list = {
     id: '1',
     detail: 'Walk the dog',
-  }
+  };
